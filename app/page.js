@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center gap-4 pb-40 px-4 md:px-20 bg-gradient-to-b from-emerald-50 to-white min-h-screen">
       
-      <h1 className="text-4xl font-bold mt-8 text-amber-600">Amber</h1>
+      <h1 className="text-4xl font-bold mt-8 text-amber-600" style={{ fontFamily: 'Boldonse' }}>Amber</h1>
 
       <div className="w-full max-w-4xl flex flex-col gap-4 mt-8 mb-32">
         {chat.map((item, index) => (
